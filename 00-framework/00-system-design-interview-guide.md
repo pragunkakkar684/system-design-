@@ -92,11 +92,11 @@ Summarize the design and acknowledge trade-offs:
 ## ⚡ Latency Numbers Every Engineer Should Know
 
 ```mermaid
-xychart-beta
-    title "Latency Comparison (Logarithmic Scale)"
-    x-axis ["L1 Cache", "RAM", "NVMe SSD", "Same Datacenter", "Cross-Country WAN"]
-    y-axis "Nanoseconds (Log scale)" 0.5 --> 150000000
-    bar [1, 100, 10000, 500000, 150000000]
+flowchart TD
+    L1["⚡ L1 Cache<br/><b>~1 ns</b>"] --> RAM["🧠 Main Memory (RAM)<br/><b>~100 ns</b> (100x slower)"]
+    RAM --> SSD["💾 NVMe SSD Read<br/><b>~10,000 ns (10 µs)</b> (10,000x slower)"]
+    SSD --> DC["🏢 Same Datacenter RTT<br/><b>~500,000 ns (0.5 ms)</b> (500,000x slower)"]
+    DC --> WAN["🌐 Cross-Continent WAN<br/><b>~150,000,000 ns (150 ms)</b> (150,000,000x slower)"]
 ```
 
 - **L1 cache reference:** $\approx 1 \text{ ns}$
