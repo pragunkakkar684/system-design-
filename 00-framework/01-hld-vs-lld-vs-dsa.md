@@ -152,3 +152,4 @@ sequenceDiagram
 3. **Map the Architecture (HLD):** Draw the high-level components (API Gateway, services, databases, queues).
 4. **Enforce Clean Code Contracts (LLD):** Show how services interact through decoupled interfaces and design patterns (Factory, Strategy, Observer).
 5. **Zoom into Algorithms (DSA):** Apply algorithms to the specific high-leverage bottlenecks (e.g., spatial partitioning, routing graphs).
+
