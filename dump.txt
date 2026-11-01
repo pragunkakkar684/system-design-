@@ -1,9 +1,17 @@
-rather than focusing on just dsa we first have to find objects/entities and find relations between them. for example there is a company like uber and ola and we have to design there product so lets say there are two candidates the first one is good at just dsa and the second one is good at dsa and lld both. so the first one jumps onto algos and solcing like assigning driver using a priority queue, finding the minimum path and all that stuff but the interview is not happy as it does not take into account what are entities how can we scale it how will we manage if we want to add a new service to the product and all that stuff such as how notifications and payments are being handeled how is data security being handeled. on the other hand candidate b first list down all the objects such as users riders locations notifications payments etc and then find relationships between them and then take into account for data security and handeleing of senstive data and how the application can scale upto million of users. and after all this dsa solving starts.
+history of programming: machine language is tedious not scalable and prone to errors. next came assembly language which was slightly better but still tedious and not scalable, it was tightly coupled to hardware. then came procederal language it introduces fucntions, blocks etc it told do then and do this but it lacked real world mmodelling. data security was also not there and it was not scalable and not reusable. 
 
-lld focuses on scalability, maintainability and reusability of the code. the code should not be tightly coupled. pluig and play model shoud work well. 
+a object has two things charactersticks and behaviour. for example a car has charactersticks like engine wheel model brand etc and it has behaviour like start stop gearshift accelerate brake etc. so we make a class for car and this class acts like a blueprint to make a new car.
 
-hld stands for high level design. it focuses on things like techstack and type of database how can servers be scalled it focuses on cost optimisation it has 0 code relation.
+ there are 4 major principles of oop whcih are: abstraction, polymorphism, encapsulation and inheritence. 
 
-hld lld and dsa all together makes an application.
+ abstraction provides an interface for a perticular problem or use case as an object may have complex implementation but we just need to know what methods to use.
+  for example we just need to know how to start the car and not how it works.
 
-hld gives system architecture lld gives code structure and dsa gives tool. if dsa is the brain lld is the skeleton.  
+  encapsulation is nothing but wrapping of data and methods that operate on the data in a single unit called a class. 
+  for example we wrap the data of the car in a class and the methods that operate on the data in the same class.
+
+  polymorphism is nothing but the ability of an object to take many forms.
+  for example we can have a method add which can add two numbers or two strings.
+
+  inheritence is nothing but the ability of a class to inherit the properties of another class. 
+  for example a car can inherit the properties of a vehicle.
