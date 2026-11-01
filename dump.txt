@@ -1,17 +1,9 @@
-# -------------------------------------------------------------
-# SYSTEM DESIGN NOTES DUMP PAD
-# -------------------------------------------------------------
-# Instructions:
-# 1. Delete this sample text and paste your raw learning notes here.
-# 2. They can be messy, fragmented, bullet points, transcript snippets,
-#    or rough thoughts.
-# 3. Tell the AI assistant: "Process dump.txt" or "Convert dump.txt into a note".
-# 4. Once processed, overwrite this file with your next topic notes.
-# -------------------------------------------------------------
+rather than focusing on just dsa we first have to find objects/entities and find relations between them. for example there is a company like uber and ola and we have to design there product so lets say there are two candidates the first one is good at just dsa and the second one is good at dsa and lld both. so the first one jumps onto algos and solcing like assigning driver using a priority queue, finding the minimum path and all that stuff but the interview is not happy as it does not take into account what are entities how can we scale it how will we manage if we want to add a new service to the product and all that stuff such as how notifications and payments are being handeled how is data security being handeled. on the other hand candidate b first list down all the objects such as users riders locations notifications payments etc and then find relationships between them and then take into account for data security and handeleing of senstive data and how the application can scale upto million of users. and after all this dsa solving starts.
 
-Topic: (e.g. Consistent Hashing, Distributed Cache, or Load Balancers)
+lld focuses on scalability, maintainability and reusability of the code. the code should not be tightly coupled. pluig and play model shoud work well. 
 
-Raw Notes / Highlights:
-- 
-- 
-- 
+hld stands for high level design. it focuses on things like techstack and type of database how can servers be scalled it focuses on cost optimisation it has 0 code relation.
+
+hld lld and dsa all together makes an application.
+
+hld gives system architecture lld gives code structure and dsa gives tool. if dsa is the brain lld is the skeleton.  

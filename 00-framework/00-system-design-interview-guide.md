@@ -105,3 +105,4 @@ xychart-beta
 - **Read 1 MB sequentially from SSD:** $\approx 50,000 \text{ ns} \ (50\ \mu\text{s})$
 - **Round-trip in same datacenter:** $\approx 500,000 \text{ ns} \ (0.5\ \text{ms})$
 - **Send packet CA to Netherlands and back:** $\approx 150,000,000 \text{ ns} \ (150\ \text{ms})$
+

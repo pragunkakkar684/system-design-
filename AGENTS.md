@@ -55,3 +55,4 @@ Whenever the user asks to process `dump.txt`:
 
 5. **Do NOT delete the target note when `dump.txt` is updated:**
    - The user will overwrite `dump.txt` for future dumps. Keep all compiled `.md` files safe in their respective folders.
+
