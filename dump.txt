@@ -1,0 +1,17 @@
+# -------------------------------------------------------------
+# SYSTEM DESIGN NOTES DUMP PAD
+# -------------------------------------------------------------
+# Instructions:
+# 1. Delete this sample text and paste your raw learning notes here.
+# 2. They can be messy, fragmented, bullet points, transcript snippets,
+#    or rough thoughts.
+# 3. Tell the AI assistant: "Process dump.txt" or "Convert dump.txt into a note".
+# 4. Once processed, overwrite this file with your next topic notes.
+# -------------------------------------------------------------
+
+Topic: (e.g. Consistent Hashing, Distributed Cache, or Load Balancers)
+
+Raw Notes / Highlights:
+- 
+- 
+- 
