@@ -53,6 +53,17 @@ Whenever the user asks to process `dump.txt`:
    - Add/update the link to the generated markdown file.
    - Mark the checkbox from `[ ]` to `[x]`.
 
-5. **Do NOT delete the target note when `dump.txt` is updated:**
+5. **Git Commit & Push Protocol (Mandatory):**
+   - Stage all modified and new files (`git add .`).
+   - Create an apt, professional commit following Conventional Commits format with a clear summary line and a detailed multi-line description explaining the architectural topic, diagrams added, and index updates.
+   - Example:
+     ```bash
+     git commit -m "docs(networking): add HTTP/2 vs HTTP/3 deep dive note" -m "- Explains multiplexing, HOL blocking, QUIC protocol over UDP
+     - Includes Mermaid sequence diagrams comparing TCP vs QUIC handshakes
+     - Updates README roadmap and index"
+     ```
+   - Push immediately to GitHub remote (`git push origin main`).
+
+6. **Do NOT delete the target note when `dump.txt` is updated:**
    - The user will overwrite `dump.txt` for future dumps. Keep all compiled `.md` files safe in their respective folders.
 
