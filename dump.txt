@@ -1,40 +1,9 @@
-what are uml diagrams? one way to tell about the application is normal paragraphs and the other one is using diagrams.
+in real world there are problems like maintainability, readability, scalability, availability, security. 
 
-all the entities and components and the relation between them is shown in an diagram. 
+to solve these problems there are priciples called SOLID which are:
 
-there are two type of uml diagrams structural(static) and the other one is behavioural(dynamic)
-
-the ones that matter is class diagramn in structual and sequence diagram in behavioural.
-
-class diagrams tell how many classes are there in the application and how are they associated with each other.
-
-when we draw a class diagram we will draw boxes and the first box is the name of the class, the second box is the attributes and the third box is the methods. 
-
-for access modifiers use + for public, - for private, # for protected.
-
-if the class is abstract we name it like <<abstract>> ClassName.
-
-assiciations are of two types: class and object
-
-inheritence is class association.
-
-in object there are three things: simple aggregation and composition. 
-
-inheritance is is-a relation. ex: A student is a person. it is denoted by an arrow. 
-
-composition is a has a relation. ex: A car has a engine. it is denoted by a filled diamond. here the internal objects cannot exist without the outer one. if the outer object is destroyed the inner objects are also destroyed.
-
-aggregation is also a has a relation. ex: A department has a list of students. it is denoted by an unfilled diamond. here the internal objects can exist without the outer one. if the outer object is destroyed the inner objects are also destroyed.
-
-simple assiciation is a simple relation and is denoted by a simple line. ex: A person has a name and age. here the internal objects can exist without the outer one. if the outer object is destroyed the inner objects are also destroyed.
-
-sequence diagram is a type of behavioural diagram and tell how objects interact with each other over a period of time. lifeline tells the lifespan of an object over a period of time. focus of control (activation bar) tells the time period for which an object is responsible for a particular task. 
-
-messages are of two types sync and async it is denoted by <<message>> with a arrow and the response is denoted by a dotted arrow with a reverse arrow head. same with async but no wait for response is there.
-
-to create and destroy objects we use create message and destroy message. 
-
-lost message is a type of message that is lost in the network and is not received by the receiver. it is denoted by a circle with a X inside it. 
-
-found message is a type of message that is found in the network and is received by the receiver. it is denoted by a circle with a O inside it.
-
+1. Single Responsibility Principle (SRP): A class should have only one reason to change.
+2. Open / Closed Principle: A class should be open for extension, but closed for modification.
+3. Liskov Substitution Principle: A class should be substitutable for its parent class.
+4. Interface Segregation Principle: A class should not be forced to implement methods it doesn't use.
+5. Dependency Inversion Principle: A class should depend on abstractions, not on concretions.

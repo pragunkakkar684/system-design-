@@ -340,3 +340,4 @@ classDiagram
 ### 🏆 Quick Interview Sketching Rules
 - **Class Diagrams:** When asked for LLD, start with 3–5 core nouns (Classes), write 2 attributes and 2 methods each, and immediately define their relationship diamonds (`*--` vs `o--`).
 - **Sequence Diagrams:** Focus on the "Happy Path" first with step numbers. Use an `alt` or `opt` box for error/fallback scenarios.
+
