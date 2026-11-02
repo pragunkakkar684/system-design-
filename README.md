@@ -34,6 +34,7 @@ flowchart LR
 - [x] [`00-system-design-interview-guide.md`](./00-framework/00-system-design-interview-guide.md) — 4-Step Framework (Scope, High-Level, Deep Dive, Wrap-up)
 - [x] [`01-hld-vs-lld-vs-dsa.md`](./00-framework/01-hld-vs-lld-vs-dsa.md) — HLD vs LLD vs DSA: The Software Engineering Triad (Uber/Ola Case Study)
 - [x] [`02-oop-fundamentals-and-paradigms.md`](./00-framework/02-oop-fundamentals-and-paradigms.md) — Evolution of Paradigms & 4 Pillars of OOP (Abstraction, Encapsulation, Polymorphism, Inheritance)
+- [x] [`03-uml-diagrams-class-and-sequence.md`](./00-framework/03-uml-diagrams-class-and-sequence.md) — UML Modeling: Class Diagrams (Structural) & Sequence Diagrams (Behavioral)
 - [ ] Back-of-the-envelope calculations & numbers every engineer should know
 - [ ] Latency comparison numbers (L1 cache vs RAM vs SSD vs Network)
 

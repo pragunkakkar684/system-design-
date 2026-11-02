@@ -1,17 +1,40 @@
-history of programming: machine language is tedious not scalable and prone to errors. next came assembly language which was slightly better but still tedious and not scalable, it was tightly coupled to hardware. then came procederal language it introduces fucntions, blocks etc it told do then and do this but it lacked real world mmodelling. data security was also not there and it was not scalable and not reusable. 
+what are uml diagrams? one way to tell about the application is normal paragraphs and the other one is using diagrams.
 
-a object has two things charactersticks and behaviour. for example a car has charactersticks like engine wheel model brand etc and it has behaviour like start stop gearshift accelerate brake etc. so we make a class for car and this class acts like a blueprint to make a new car.
+all the entities and components and the relation between them is shown in an diagram. 
 
- there are 4 major principles of oop whcih are: abstraction, polymorphism, encapsulation and inheritence. 
+there are two type of uml diagrams structural(static) and the other one is behavioural(dynamic)
 
- abstraction provides an interface for a perticular problem or use case as an object may have complex implementation but we just need to know what methods to use.
-  for example we just need to know how to start the car and not how it works.
+the ones that matter is class diagramn in structual and sequence diagram in behavioural.
 
-  encapsulation is nothing but wrapping of data and methods that operate on the data in a single unit called a class. 
-  for example we wrap the data of the car in a class and the methods that operate on the data in the same class.
+class diagrams tell how many classes are there in the application and how are they associated with each other.
 
-  polymorphism is nothing but the ability of an object to take many forms.
-  for example we can have a method add which can add two numbers or two strings.
+when we draw a class diagram we will draw boxes and the first box is the name of the class, the second box is the attributes and the third box is the methods. 
 
-  inheritence is nothing but the ability of a class to inherit the properties of another class. 
-  for example a car can inherit the properties of a vehicle.
+for access modifiers use + for public, - for private, # for protected.
+
+if the class is abstract we name it like <<abstract>> ClassName.
+
+assiciations are of two types: class and object
+
+inheritence is class association.
+
+in object there are three things: simple aggregation and composition. 
+
+inheritance is is-a relation. ex: A student is a person. it is denoted by an arrow. 
+
+composition is a has a relation. ex: A car has a engine. it is denoted by a filled diamond. here the internal objects cannot exist without the outer one. if the outer object is destroyed the inner objects are also destroyed.
+
+aggregation is also a has a relation. ex: A department has a list of students. it is denoted by an unfilled diamond. here the internal objects can exist without the outer one. if the outer object is destroyed the inner objects are also destroyed.
+
+simple assiciation is a simple relation and is denoted by a simple line. ex: A person has a name and age. here the internal objects can exist without the outer one. if the outer object is destroyed the inner objects are also destroyed.
+
+sequence diagram is a type of behavioural diagram and tell how objects interact with each other over a period of time. lifeline tells the lifespan of an object over a period of time. focus of control (activation bar) tells the time period for which an object is responsible for a particular task. 
+
+messages are of two types sync and async it is denoted by <<message>> with a arrow and the response is denoted by a dotted arrow with a reverse arrow head. same with async but no wait for response is there.
+
+to create and destroy objects we use create message and destroy message. 
+
+lost message is a type of message that is lost in the network and is not received by the receiver. it is denoted by a circle with a X inside it. 
+
+found message is a type of message that is found in the network and is received by the receiver. it is denoted by a circle with a O inside it.
+
